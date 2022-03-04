@@ -29,12 +29,16 @@ The original Yelp reviews dataset is retrieved from Yelp directly: https://www.y
 For a sample business with 503 reviews:
 
 Keywords in positive reviews
+
 ![positive](https://user-images.githubusercontent.com/38342639/156823153-0765e740-1a08-4255-b922-0f8da993ebc7.png)
 
 Keywords in negative reviews
+
 ![negative](https://user-images.githubusercontent.com/38342639/156823224-c426c293-c8ff-48ee-9141-8b45fb215d47.png)
 
 Keywords contributing to positive & negative reviews
+
 ![onegram](https://user-images.githubusercontent.com/38342639/156823379-fba7acd9-6d44-4cf1-9137-c79be48d47d3.png)
+
 ![bigram](https://user-images.githubusercontent.com/38342639/156823251-41e48443-352b-4b63-8139-47c162cdc52d.png)
 
