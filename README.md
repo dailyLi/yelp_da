@@ -2,7 +2,7 @@
 
 As one of the most popular local business information app in North America, Yelp is widely used for review and rating. User reviews can bring insight for business owners for service improvement, and help potential customers find their choice of dining, shopping and other local services.
 
-Therefore, the objective of this project is to identify the polarity (positive or negative) of Yelp reviews using machine learning techniques, specifically, NLP sentiment analysis with Keras. The project would mainly focus on enhancing customers’ understanding of restaurants, educating new business owners on market knowledge, and improving existing merchants’ awareness about their performance.
+Therefore, the objective of this project is to identify the polarity (positive or negative) of Yelp reviews, and extract keywords that contribute to the positive or negative reviews. The project would mainly focus on enhancing customers’ understanding of restaurants, educating new business owners on market knowledge, and improving existing merchants’ awareness about their performance.
 
 ## Tasks
 
@@ -23,3 +23,18 @@ The original Yelp reviews dataset is retrieved from Yelp directly: https://www.y
 - Convolutional Neural Networks (CNN)
 - Recurrent Neural Networks (RNN)
 - Support Vector Machines (SVM)
+
+## Result example
+
+For a sample business with 503 reviews:
+
+Keywords in positive reviews
+![positive](https://user-images.githubusercontent.com/38342639/156823153-0765e740-1a08-4255-b922-0f8da993ebc7.png)
+
+Keywords in negative reviews
+![negative](https://user-images.githubusercontent.com/38342639/156823224-c426c293-c8ff-48ee-9141-8b45fb215d47.png)
+
+Keywords contributing to positive & negative reviews
+![onegram](https://user-images.githubusercontent.com/38342639/156823379-fba7acd9-6d44-4cf1-9137-c79be48d47d3.png)
+![bigram](https://user-images.githubusercontent.com/38342639/156823251-41e48443-352b-4b63-8139-47c162cdc52d.png)
+
