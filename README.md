@@ -38,7 +38,5 @@ Keywords in negative reviews
 
 Keywords contributing to positive & negative reviews
 
-![onegram](https://user-images.githubusercontent.com/38342639/156823379-fba7acd9-6d44-4cf1-9137-c79be48d47d3.png)
-
 ![bigram](https://user-images.githubusercontent.com/38342639/156823251-41e48443-352b-4b63-8139-47c162cdc52d.png)
 
