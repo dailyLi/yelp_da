@@ -7,7 +7,7 @@ Therefore, the objective of this project is to identify the polarity (positive o
 ## Tasks
 
 - Identify the polarity (positive or negative) of Yelp reviews using machine learning techniques, specifically, NLP sentiment analysis with Keras.
-- Extract keywords and key features from positive and negative reviews using word cloud.
+- Extract keywords and key features from positive and negative reviews using word cloud and SVM regression.
 
 ## Data set
 - ### Yelp reviews polarity dataset
