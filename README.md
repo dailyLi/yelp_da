@@ -28,7 +28,6 @@ The original Yelp reviews dataset is retrieved from Yelp directly: https://www.y
 
 The code was written in Jupyter Notebook with Python, using **Pandas** for data manipulation, **Tensorflow** and **Scikit-learn** for machine learning, **NLTK** for NLP, and **wordcloud** and **matplotlib** for visualization.
 
-Preprocessing.ipynb: data cleaning and processing with Jan 2021 dataset
 - [Yelp_sentiment_analysis.ipynb](https://github.com/dailyLi/yelp_da/blob/main/Yelp_sentiment_analysis.ipynb): data cleaning, processing, model building, training, testing, evaluation, and model deployment on original Yelp sample dataset
 - [Yelp_word_cloud.ipynb](https://github.com/dailyLi/yelp_da/blob/main/Yelp_word_cloud.ipynb): key words extraction and data visualization
 
