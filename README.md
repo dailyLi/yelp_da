@@ -9,7 +9,7 @@ Therefore, the objective of this project is to identify the polarity (positive o
 - Identify the polarity (positive or negative) of Yelp reviews using machine learning techniques, specifically, NLP sentiment analysis with Keras.
 - Extract keywords and key features from positive and negative reviews using word cloud and SVM regression.
 
-## Data set
+## Data
 - ### Yelp reviews polarity dataset
 
 The Yelp reviews dataset consists of reviews from Yelp Dataset Challenge 2015 data. The Yelp reviews polarity dataset is constructed by Xiang Zhang (xiang.zhang@nyu.edu) and retrieved from https://course.fast.ai/datasets. The Yelp reviews polarity dataset is constructed by considering stars 1 and 2 negative, and 3 and 4 positive. For each polarity 280,000 training samples and 19,000 testing samples are take randomly. In total there are 560,000 trainig samples and 38,000 testing samples. Negative polarity is class 1, and positive class 2.
@@ -23,6 +23,14 @@ The original Yelp reviews dataset is retrieved from Yelp directly: https://www.y
 - Convolutional Neural Networks (CNN)
 - Recurrent Neural Networks (RNN)
 - Support Vector Machines (SVM)
+
+## Packages & docs
+
+The code was written in Jupyter Notebook with Python, using **Pandas** for data manipulation, **Tensorflow** and **Scikit-learn** for machine learning, **NLTK** for NLP, and **wordcloud** and **matplotlib** for visualization.
+
+Preprocessing.ipynb: data cleaning and processing with Jan 2021 dataset
+- [Yelp_sentiment_analysis.ipynb](https://github.com/dailyLi/yelp_da/blob/main/Yelp_sentiment_analysis.ipynb): data cleaning, processing, model building, training, testing, evaluation, and model deployment on original Yelp sample dataset
+- [Yelp_word_cloud.ipynb](https://github.com/dailyLi/yelp_da/blob/main/Yelp_word_cloud.ipynb): key words extraction and data visualization
 
 ## Result example
 
